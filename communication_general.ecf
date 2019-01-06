@@ -16,6 +16,6 @@
 			<void_safety support="all"/>
 		</capability>
 		<library name="base" location="$ISE_LIBRARY/library/base/base.ecf"/>
-		<cluster name="communication" location="." recursive="true" readonly="true"/>
+		<cluster name="communication" location="./src" recursive="true" readonly="true"/>
 	</target>
 </system>
